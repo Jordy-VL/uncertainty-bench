@@ -1,6 +1,6 @@
 # Paper
 
-I am contemplating adding the raw tex files and GITLFS images. [TBD]
+I am contemplating adding the raw tex files and GIT-LFS images. [TBD]
 
 ----
 
