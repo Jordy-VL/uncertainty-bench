@@ -8,6 +8,12 @@ in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experim
 <img src="https://user-images.githubusercontent.com/5989894/82336026-5a9f2e80-99ea-11ea-8141-facbcf9fd60d.gif" width="350" alt="AOWS-teaser">
 --->
 
+## Methods [TBD]
+
+<img src="/paper/images/legend_diversity.png" width="350" alt="Methods and identifiers">
+<!---
+![Alt text](/papers//to/img.jpg?raw=true "Optional Title")
+--->
 ## Data [TBD]
 
 Link to used datasets with references
