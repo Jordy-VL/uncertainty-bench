@@ -52,7 +52,7 @@ python3 experiment.py CONFIG_NAME
 
 
 ## Disclaimer
-The code was originally run in a corporate environment*, now reimplemented and open-sourced for helping the research community. 
+The code was originally run in a corporate environment*, now reimplemented and open-sourced for aiding the research community. 
 There will be small changes between the current output & results presented in the paper.
 
 
