@@ -8,6 +8,11 @@ in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experim
 <img src="https://user-images.githubusercontent.com/5989894/82336026-5a9f2e80-99ea-11ea-8141-facbcf9fd60d.gif" width="350" alt="AOWS-teaser">
 --->
 
+## Motivation
+
+Perfect predictive accuracy is unattainable for most text classification problems, explaining the need for reliable ML solutions that can communicate predictive uncertainty when dealing with noisy or unknown inputs. In the quest for a simple, principled and scalable uncertainty method, which one to choose, when and why? 
+Our survey on Bayesian Deep Learning methods and benchmarking on 6 different text classification datasets aims to help practicioners make this decision and have future researchers spurred to continue investigations into hybrid uncertainty methods. 
+
 ## Methods [TBC]
 
 <p align="middle">
