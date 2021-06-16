@@ -8,7 +8,14 @@ in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experim
 <img src="https://user-images.githubusercontent.com/5989894/82336026-5a9f2e80-99ea-11ea-8141-facbcf9fd60d.gif" width="350" alt="AOWS-teaser">
 --->
 
-## Data [TBD]
+## Methods [TBC]
+
+<img src="/paper/images/legend_diversity.png" width="350" alt="Methods and identifiers">
+<!---
+![Alt text](/papers//to/img.jpg?raw=true "Optional Title")
+--->
+
+## Data [TBC]
 
 Link to used datasets with references
 Might serve some in a google drive link.
@@ -38,9 +45,14 @@ python3 experiment.py CONFIG_NAME
 }
 ```
 
+## Results
+
+<img src="/paper/images/single.png" alt="KDE plots of uncertainty in OOD detection task">
+
+
 ## Disclaimer
 The code was originally run in a corporate environment*, now reimplemented and open-sourced for helping the research community. 
 There will be small changes between the current output & results presented in the paper.
 
 
-<img src="https://contract.fit/wp-content/uploads/2019/11/logo-2.png" width="350" alt="AOWS-teaser">
+<img src="https://contract.fit/wp-content/uploads/2019/11/logo-2.png" width="350" alt="CF logo">
