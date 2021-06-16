@@ -11,6 +11,7 @@ in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experim
 ## Motivation
 
 Perfect predictive accuracy is unattainable for most text classification problems, explaining the need for reliable ML solutions that can communicate predictive uncertainty when dealing with noisy or unknown inputs. In the quest for a simple, principled and scalable uncertainty method, which one to choose, when and why? 
+
 Our survey on Bayesian Deep Learning methods and benchmarking on 6 different text classification datasets aims to help practicioners make this decision and have future researchers spurred to continue investigations into hybrid uncertainty methods. 
 
 ## Methods [TBC]
