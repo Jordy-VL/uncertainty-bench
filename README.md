@@ -10,10 +10,11 @@ in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experim
 
 ## Methods [TBC]
 
-<img src="/paper/images/legend_diversity.png" width="350" alt="Methods and identifiers">
-<!---
-![Alt text](/papers//to/img.jpg?raw=true "Optional Title")
---->
+<p align="middle">
+<img src="/paper/images/legend_diversity.png" width="45%" alt="Methods and identifiers">
+<img src="/paper/images/sngp_legend_only.png" width="45%" alt="SNGP Methods">
+</p>
+
 
 ## Data [TBC]
 
