@@ -12,10 +12,11 @@ in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experim
 
 - [x] boilerplate repo
 - [x] raw evaluation data
+- [x] link or host datasets
+- [ ] update experiment instructions
 - [ ] ONGOING re-implementation, see Disclaimer
 - [ ] assign proper LICENSE
-- [ ] link or host datasets
-- [ ] update experiment instructions
+
 
 ## Motivation
 
