@@ -38,7 +38,7 @@ Might serve some in a google drive link.
 
 ## Usage
 
-link to README of experiments
+[`paper`](./experiments/README.md)
 
 ### Training a model
 _main file: `experiment.py`_
