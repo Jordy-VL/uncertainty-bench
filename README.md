@@ -1,12 +1,9 @@
 # uncertainty-bench
 Repository for **Benchmarking Scalable Predictive Uncertainty in Text Classification**, by Jordy Van Landeghem, Matthew Blaschko, Bertrand Anckaert and Marie-Francine Moens, JMLR 2020 (submitted).
 
-It contains the source code of the paper, the experiments therein, and (slides) 
-in the folders [`paper`](./paper), [`src`](./src), and [`experiments`](./experiments), respectively.
+It contains the source code of the paper, the experiments therein, and datasets used 
+in the folders [`paper`](./paper), [`src`](./src), [`experiments`](./experiments), and [`datasets`](./datasets) respectively.
 
-<!---
-<img src="https://user-images.githubusercontent.com/5989894/82336026-5a9f2e80-99ea-11ea-8141-facbcf9fd60d.gif" width="350" alt="AOWS-teaser">
---->
 
 ### Changelog
 
@@ -24,7 +21,7 @@ Perfect predictive accuracy is unattainable for most text classification problem
 
 Our survey on Bayesian Deep Learning methods and benchmarking on 6 different text classification datasets aims to help practicioners make this decision and have future researchers spurred to continue investigations into hybrid uncertainty methods. 
 
-## Methods [TBC]
+## Methods
 
 <p align="middle">
 <img src="/paper/images/legend_diversity.png" width="45%" alt="Methods and identifiers">
@@ -32,14 +29,15 @@ Our survey on Bayesian Deep Learning methods and benchmarking on 6 different tex
 </p>
 
 
-## Data [TBC]
+## Installation
 
-Link to used datasets with references
-Might serve some in a google drive link.
+[`Requirements and setup`](./experiments/README.md)
+
 
 ## Usage
 
-[`paper`](./experiments/README.md)
+[`Detail usage`](./experiments/README.md)
+
 
 ### Training a model
 _main file: `experiment.py`_

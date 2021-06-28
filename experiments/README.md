@@ -5,17 +5,18 @@ __license__ = "GPL v3"
 __version__ = "1.0"
 ```
 
-# Predictive Uncertainty for Probabilistic Novelty Detection in Text Classification
+# Benchmarking Scalable Predictive Uncertainty in Text Classification
 
-This repository is the official implementation of [Predictive Uncertainty for Probabilistic Novelty Detection in Text Classification](). 
+📋 This repository is the official implementation of [Benchmarking Scalable Predictive Uncertainty in Text Classification](). 
+The original library is called `arkham`, for continued development I have kept this framework structure for the opensource as well.
 
-> 📋Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Requirements
 
 To install requirements:
 
 ```setup
+git clone git@github.com:Jordy-VL/uncertainty-bench.git $HOME/code/arkham
 mkvirtualenv -p /usr/bin/python3.6 -a $HOME/code/arkham arkham
 pip3 install poetry
 workon arkham; poetry install
@@ -25,18 +26,31 @@ Main requirements are:
 * TensorFlow 2
 * Sacred #for experiment tracking
 
-Additionally, setting up MODELROOT and DATAROOT:
-* MODELROOT needs to be altered in utils/model_utils.py
-* DATAROOT is assumed to be a directory "data" at the same level as experiment.py; we advice to use a symbolic link to any folder desired 
+### Setup
 
+Add a `configfile.py` in `$HOME/code/arkham` with the following GLOABLS:
+* MODELROOT as destination for saving model artefacts and re-loading for evaluation
+* DATAROOT can be a directory "data" at the same level as `experiment.py`; use a symbolic link if needed
 
-To test setup:
+### Configs
+
+In Sacred, configs are used to detail hyperparameter configs to the framework. Based on certain switches, different models and uncertainty methods will be activated.
+
+#### To test the default setup:
 
 ```sh
 python3 experiment.py with clf_default "identifier=mini_imdb" "model=cnn_baseline" "steps_per_epoch=None"
 ```
 
-> 📋Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+## Repository structure
+
+The most important implementations and helper functions are in these subdirectories:
+
+* arkham/arkham/Bayes/Quantify
+** arkham/arkham/utils
+** arkham/arkham/Bayes/GP
+** arkham/arkham/Bayes/MCMC
+
 
 ## Training
 
@@ -84,24 +98,32 @@ python3 ood.py <path_to_model>
 > 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 
-## Details
+### More details [TBD]
 
-PAPER link again. 
+Link to paper
+
+#### Reproducing main results
+
+Run the commands in `benchmark_runs.md`
 
 
 ## Citing
 
 If you use any part of this code in your research, please cite it using the following BibTex entry
 ```cite
+@inproceedings{VanLandeghem2020a,
+  TITLE = {Benchmarking Scalable Predictive Uncertainty in Text Classification},
+  AUTHOR = {Van Landeghem, Jordy and Blaschko, Matthew B. and Anckaert, Bertrand and Moens, Marie-Francine},
+  BOOKTITLE = {Submitted to Journal of Machine Learning Research},
+  YEAR = {2020/1}
+}
+
 @misc{ContractfitUquant,
   author = {Jordy Van Landeghem},
-  title = {Predictive Uncertainty for Probabilistic Novelty Detection in Text Classification},
+  title = {Benchmarking Scalable Predictive Uncertainty in Text Classification},
   year = {2020},
   publisher = {ICML},
   journal = {ICML workshop UDL},
   howpublished = {\url{https://github.com/Jordy-VL}},
 }
 ```
-
-## License
-Apache License 2.0

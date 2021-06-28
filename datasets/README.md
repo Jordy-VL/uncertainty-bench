@@ -3,6 +3,8 @@
 We provide the datasets used in our benchmarking study with links to their original sources (to avoid licensing issues).
 If you are unable to run with the provided linked datasets, send an email (corresponding email in manuscript) for preprocessed versions. 
 
+We provide a sample dataset `mini_imdb` which can be used to test your setup. 
+
 <table class="tg">
 <thead>
   <tr>
