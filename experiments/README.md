@@ -99,6 +99,23 @@ python3 ood.py <path_to_model>
 > 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 
+### Advanced Instructions
+
+#### Adding a new dataset
+
+Any new dataset should be a subdirectory of DATAROOT, with an identifier, which triggers the appropriate dataloader in `data.py`. 
+There are plently examples there. The subdirectory itself should contain any one of three labelsets `train`, `dev` and/or `test`.
+We include support for `flair`, `tensorflow-datasets` and `huggingface-nlp` datasets as examples.
+
+#### Adding a new uncertainty method
+
+Highly dependent on what architectural, optimization or additional hyperparameter changes are required.
+Generally, add a standalone .py file with the `tf.keras.model` with `tf.keras.optimizers.optimizerV2`, callbacks, loss and compilation code. 
+All other functionality should already run out-of-the-box.
+Ideally, you include a new model switch in `experiment.py`, based on the `model_identifier` parameter in the default or a new config.
+In order to load the model, this new object creation code should be imported in `model_utils.py`.
+
+
 ### More details [TBD]
 
 Link to paper
