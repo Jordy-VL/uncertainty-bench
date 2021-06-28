@@ -2,15 +2,6 @@
 
 We provide the datasets used in our benchmarking study. 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
 <thead>
   <tr>
@@ -21,6 +12,7 @@ We provide the datasets used in our benchmarking study.
     <th class="tg-c3ow">$I$</th>
     <th class="tg-c3ow">$W$</th>
     <th class="tg-c3ow">$V$</th>
+    <th class="tg-c3ow">Link</th>
   </tr>
 </thead>
 <tbody>
@@ -32,6 +24,9 @@ We provide the datasets used in our benchmarking study.
     <td class="tg-c3ow">5e-4</td>
     <td class="tg-c3ow">240</td>
     <td class="tg-c3ow">212,267</td>
+      <td>
+        <a href="https://github.com/hendrycks/error-detection/tree/master/NLP/Categorization/data">Link</a>
+      </td>
   </tr>
   <tr>
     <td class="tg-0pky">IMDB</td>
@@ -72,5 +67,79 @@ We provide the datasets used in our benchmarking study.
 </tbody>
 </table>
 
+
+
 ## References
 
+```
+@article{lang199520,
+author = "Ken Lang",
+  title="Newsweeder: Learning to filter netnews. version 20news-18828",
+  journal = "Machine Learning Proceedings 1995",
+address = "San Francisco (CA)",
+pages = "331 - 339",
+year = "1995"
+}
+
+@article{hendrycks2016baseline,
+  title={A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks},
+  author={Hendrycks, Dan and Gimpel, Kevin},
+  journal = {5th International Conference on Learning Representations},
+  year={2017}
+}
+```
+```
+@inproceedings{diao_2014,
+    title = {Jointly Modeling Aspects, Ratings and Sentiments for Movie Recommendation ({JMARS})},
+  author={Diao, Qiming and Qiu, Minghui and Wu, Chao-Yuan and Smola, Alexander J and Jiang, Jing and Wang, Chong},
+  booktitle={Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={193--202},
+  year={2014}
+}
+```
+
+```
+@inproceedings{larson2019evaluation,
+    title = "An Evaluation Dataset for Intent Classification and Out-of-Scope Prediction",
+    author = "Larson, Stefan  and
+      Mahendran, Anish  and
+      Peper, Joseph J.  and
+      Clarke, Christopher  and
+      Lee, Andrew  and
+      Hill, Parker  and
+      Kummerfeld, Jonathan K.  and
+      Leach, Kevin  and
+      Laurenzano, Michael A.  and
+      Tang, Lingjia  and
+      Mars, Jason",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    pages = "1311--1316"
+}
+```
+
+```
+@article{APTE94,
+ author = "Chidanand Apt{\'{e}} and Fred Damerau and Sholom M. Weiss",
+ title = {Automated Learning of Decision Rules for Text Categorization},
+ journal = "ACM Transactions on Information Systems",
+ year = 1994
+}
+```
+
+```
+@inproceedings{yang2018sgm,
+    title = "{SGM}: Sequence Generation Model for Multi-label Classification",
+    author = "Yang, Pengcheng  and
+      Sun, Xu  and
+      Li, Wei  and
+      Ma, Shuming  and
+      Wu, Wei  and
+      Wang, Houfeng",
+    booktitle = "Proceedings of the 27th International Conference on Computational Linguistics",
+    month = aug,
+    year = "2018",
+    pages = "3915--3926"
+}
+```
