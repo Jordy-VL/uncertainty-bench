@@ -92,7 +92,7 @@ If you are unable to run with the provided linked datasets, send an email (corre
   </tr>
 </tbody>
 </table>
-
+<sub>$D$ denotes the number of documents in the dataset, $K$ the number of classes, $I$ the class imbalance ratio, $W$ the average number of words per document, $V$ the total vocabulary size respectively.</sub>
 
 
 ## References
