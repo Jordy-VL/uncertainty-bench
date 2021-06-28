@@ -1,6 +1,7 @@
 # Datasets 
 
-We provide the datasets used in our benchmarking study. 
+We provide the datasets used in our benchmarking study with links to their original sources (to avoid licensing issues).
+If you are unable to run with the provided linked datasets, send an email (corresponding email in manuscript) for preprocessed versions. 
 
 <table class="tg">
 <thead>
@@ -36,6 +37,22 @@ We provide the datasets used in our benchmarking study.
     <td class="tg-c3ow">0.03</td>
     <td class="tg-c3ow">325.6</td>
     <td class="tg-c3ow">115,073</td>
+      <td>
+        <a href="https://drive.google.com/drive/folders/1rASDy8v4QPq4ZNEZqIJo5dqcxAGINW8K">Link</a>
+      </td>
+  </tr>
+
+  <tr>
+    <td class="tg-0pky">CLINC-OOS</td>
+    <td class="tg-c3ow">intent detection</td>
+    <td class="tg-c3ow">22,500</td>
+    <td class="tg-c3ow">150</td>
+    <td class="tg-c3ow">0</td>
+    <td class="tg-c3ow">8</td>
+    <td class="tg-c3ow">6,188</td>
+      <td>
+        <a href="https://www.tensorflow.org/datasets/catalog/clinc_oos">Link</a>
+      </td>
   </tr>
   <tr>
     <td class="tg-0pky">Reuters ApteMod</td>
@@ -45,6 +62,9 @@ We provide the datasets used in our benchmarking study.
     <td class="tg-c3ow">0.14</td>
     <td class="tg-c3ow">125.2</td>
     <td class="tg-c3ow">65,035</td>
+      <td>
+        <a href="http://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html">Link</a>
+      </td>
   </tr>
   <tr>
     <td class="tg-0pky">AAPD</td>
@@ -54,6 +74,9 @@ We provide the datasets used in our benchmarking study.
     <td class="tg-c3ow">0.04</td>
     <td class="tg-c3ow">145.4</td>
     <td class="tg-c3ow">66,854</td>
+      <td>
+        <a href="https://git.uwaterloo.ca/jimmylin/Castor-data/tree/master/datasets/AAPD/data">Link</a>
+      </td>    
   </tr>
   <tr>
     <td class="tg-0pky">Amazon Reviews (\#4)</td>
@@ -63,6 +86,9 @@ We provide the datasets used in our benchmarking study.
     <td class="tg-c3ow">0</td>
     <td class="tg-c3ow">189.3</td>
     <td class="tg-c3ow">21,514</td>
+      <td>
+        <a href="https://github.com/declare-lab/kingdom/tree/master/dataset">Link</a>
+      </td>        
   </tr>
 </tbody>
 </table>
