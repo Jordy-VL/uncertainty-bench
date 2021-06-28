@@ -16,7 +16,8 @@ The original library is called `arkham`, for continued development I have kept t
 To install requirements:
 
 ```setup
-git clone git@github.com:Jordy-VL/uncertainty-bench.git $HOME/code/arkham
+git clone git@github.com:Jordy-VL/uncertainty-bench.git 
+mv uncertainty-bench/src $HOME/code/arkham
 mkvirtualenv -p /usr/bin/python3.6 -a $HOME/code/arkham arkham
 pip3 install poetry
 workon arkham; poetry install
