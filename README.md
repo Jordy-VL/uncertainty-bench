@@ -10,7 +10,7 @@ in the folders [`paper`](./paper), [`src`](./src), [`experiments`](./experiments
 - [x] boilerplate repo
 - [x] raw evaluation data
 - [x] link or host datasets
-- [ ] update experiment instructions
+- [x] update experiment instructions
 - [ ] ONGOING re-implementation, see Disclaimer
 - [ ] assign proper LICENSE
 

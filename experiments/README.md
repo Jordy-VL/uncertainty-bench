@@ -28,13 +28,14 @@ Main requirements are:
 
 ### Setup
 
-Add a `configfile.py` in `$HOME/code/arkham` with the following GLOABLS:
+Add a `configfile.py` in `$HOME/code/arkham` with the following *GLOBALS*:
 * MODELROOT as destination for saving model artefacts and re-loading for evaluation
 * DATAROOT can be a directory "data" at the same level as `experiment.py`; use a symbolic link if needed
 
 ### Configs
 
 In Sacred, configs are used to detail hyperparameter configs to the framework. Based on certain switches, different models and uncertainty methods will be activated.
+Additionally, from the commandline, you can override a certain parameter. For example runs, see `benchmark_runs.md`.
 
 #### To test the default setup:
 
@@ -46,10 +47,10 @@ python3 experiment.py with clf_default "identifier=mini_imdb" "model=cnn_baselin
 
 The most important implementations and helper functions are in these subdirectories:
 
-* arkham/arkham/Bayes/Quantify
-** arkham/arkham/utils
-** arkham/arkham/Bayes/GP
-** arkham/arkham/Bayes/MCMC
+*  arkham/arkham/Bayes/Quantify
+*  arkham/arkham/utils
+*  arkham/arkham/Bayes/GP
+*  arkham/arkham/Bayes/MCMC
 
 
 ## Training
@@ -101,6 +102,7 @@ python3 ood.py <path_to_model>
 ### More details [TBD]
 
 Link to paper
+
 
 #### Reproducing main results
 
