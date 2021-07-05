@@ -1,7 +1,7 @@
 ```python
 __author__ = "Jordy Van Landeghem"
 __copyright__ = "Copyright (C) 2020 Jordy Van Landeghem"
-__license__ = "GPL v3"
+__license__ = "AGPL v3"
 __version__ = "1.0"
 ```
 
