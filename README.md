@@ -11,8 +11,8 @@ in the folders [`paper`](./paper), [`src`](./src), [`experiments`](./experiments
 - [x] raw evaluation data
 - [x] link or host datasets
 - [x] update experiment instructions
-- [ ] ONGOING re-implementation, see Disclaimer
-- [ ] assign proper LICENSE
+- [X] assign proper LICENSE
+- [ ] ONGOING re-implementation, see Disclaimer; branch ready to push 08/07/2021
 
 
 ## Motivation
