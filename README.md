@@ -12,7 +12,7 @@ in the folders [`paper`](./paper), [`src`](./src), [`experiments`](./experiments
 - [x] link or host datasets
 - [x] update experiment instructions
 - [X] assign proper LICENSE
-- [ ] ONGOING re-implementation, see Disclaimer; branch ready to push 08/07/2021
+- [ ] re-implementation, see Disclaimer; branch ready to push 08/07/2021 (currently private)
 
 
 ## Motivation
