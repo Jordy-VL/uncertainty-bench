@@ -33,7 +33,7 @@ _main file: `experiment.py`_
 
 Example command:
 ```
-python3 experiment.py CONFIG_NAME
+python3 experiment.py with CONFIG_NAME identifier=DATASET 
 ```
 
 ## Citation
