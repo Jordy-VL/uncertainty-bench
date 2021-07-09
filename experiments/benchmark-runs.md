@@ -4,8 +4,9 @@
 
 ## Base commands to reproduce
 
-
-> python3 experiment.py with clf_default ensemble=5 dropout_nonlinear=0.5 dropout=0.5 dropout_concrete=True weight_decay=0.0001 use_aleatorics=True ood=['comp.graphics','comp.sys.ibm.pc.hardware','comp.windows.x','rec.autos','rec.sport.baseball','sci.crypt','sci.med','soc.religion.christian','talk.politics.mideast','talk.religion.misc'] identifier=20news steps_per_epoch=None seed=42 max_vocabulary=30000 -n 20news_aleatoric_M5_concrete_ood
+```sh
+python3 experiment.py with clf_default ensemble=5 dropout_nonlinear=0.5 dropout=0.5 dropout_concrete=True weight_decay=0.0001 use_aleatorics=True ood=['comp.graphics','comp.sys.ibm.pc.hardware','comp.windows.x','rec.autos','rec.sport.baseball','sci.crypt','sci.med','soc.religion.christian','talk.politics.mideast','talk.religion.misc'] identifier=20news steps_per_epoch=None seed=42 max_vocabulary=30000 -n 20news_aleatoric_M5_concrete_ood
+```sh
 
 > python3 experiment.py with clf_default ensemble=5 dropout_nonlinear=0.5 dropout=0.5 dropout_concrete=False weight_decay=0.0001 use_aleatorics=True ood=['comp.graphics','comp.sys.ibm.pc.hardware','comp.windows.x','rec.autos','rec.sport.baseball','sci.crypt','sci.med','soc.religion.christian','talk.politics.mideast','talk.religion.misc'] identifier=20news steps_per_epoch=None seed=42 max_vocabulary=30000 -n 20news_aleatoric_M5_ood
 
