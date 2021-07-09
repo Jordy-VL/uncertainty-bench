@@ -2,7 +2,7 @@
 Repository for **Benchmarking Scalable Predictive Uncertainty in Text Classification**, by Jordy Van Landeghem, Matthew Blaschko, Bertrand Anckaert and Marie-Francine Moens, JMLR 2020 (submitted).
 
 It contains the source code, the experiments, and datasets used 
-in the folders [`src`](./src), [`experiments`](./experiments), and [`datasets`](./datasets) respectively.
+in  [`src`](./src), [`experiments`](./experiments), and [`datasets`](./datasets) respectively.
 
 ## Motivation
 
