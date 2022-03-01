@@ -1,5 +1,5 @@
 # uncertainty-bench
-Repository for **Benchmarking Scalable Predictive Uncertainty in Text Classification**, by Jordy Van Landeghem, Matthew Blaschko, Bertrand Anckaert and Marie-Francine Moens, JMLR 2020 (submitted).
+Repository for **Benchmarking Scalable Predictive Uncertainty in Text Classification**, by Jordy Van Landeghem, Matthew Blaschko, Bertrand Anckaert and Marie-Francine Moens, (under review).
 
 It contains the source code, the experiments, and datasets used 
 in  [`src`](./src), [`experiments`](./experiments), and [`datasets`](./datasets) respectively.
@@ -41,7 +41,7 @@ python3 experiment.py with CONFIG_NAME identifier=DATASET
 @inproceedings{VanLandeghem2021,
   TITLE = {Benchmarking Scalable Predictive Uncertainty in Text Classification},
   AUTHOR = {Van Landeghem, Jordy and Blaschko, Matthew B. and Anckaert, Bertrand and Moens, Marie-Francine},
-  BOOKTITLE = {Submitted to Journal of Machine Learning Research},
+  BOOKTITLE = {Submitted to ...},
   YEAR = {2021}
 }
 ```
