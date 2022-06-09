@@ -1,5 +1,5 @@
 # uncertainty-bench
-Repository for **Benchmarking Scalable Predictive Uncertainty in Text Classification**, by Jordy Van Landeghem, Matthew Blaschko, Bertrand Anckaert and Marie-Francine Moens, (under review).
+Repository for **Benchmarking Scalable Predictive Uncertainty in Text Classification**, by Jordy Van Landeghem, Matthew Blaschko, Bertrand Anckaert and Marie-Francine Moens.
 
 It contains the source code, the experiments, and datasets used 
 in  [`src`](./src), [`experiments`](./experiments), and [`datasets`](./datasets) respectively.
